@@ -6,6 +6,8 @@ import java.sql.SQLException;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
+import acrovia.common.TestLog4j;
+
 public class Log4jExample{
   /* Get actual class name to be printed on */
   static Logger log = Logger.getLogger(
@@ -16,7 +18,7 @@ public class Log4jExample{
   public static void main(String[] args)
                 throws IOException,SQLException{
    
-	 DOMConfigurator.configure("log4j/log4j.xml");
+	 DOMConfigurator.configure("log4j/log4jConfig.xml");
      log.debug("Hello this is an debug message");
      log.info("Hello this is an info message");
      
@@ -29,5 +31,7 @@ public class Log4jExample{
      log.error("Sample error message");
      
      log.fatal("Sample fatal message");
+     
+     new TestLog4j().printout();
   }
 }
