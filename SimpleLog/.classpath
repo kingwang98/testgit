@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/mylib"/>
+	<classpathentry kind="lib" path="G:/home/ww/myrepo/testgit/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="G:/home/ww/myrepo/testgit/lib/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
